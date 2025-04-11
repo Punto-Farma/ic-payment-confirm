@@ -1,0 +1,22 @@
+{
+  "name": "api-ic-payment-confirm",
+  "version": "1.0.0",
+  "description": "API para confirmar pagos de Infonet Cobranzas",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "api-ic-payment-confirm": "file:",
+    "bcryptjs": "2.4.3",
+    "dotenv": "10.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "9.0.2",
+    "knex": "^3.1.0",
+    "oracledb": "6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.2"
+  }
+}
